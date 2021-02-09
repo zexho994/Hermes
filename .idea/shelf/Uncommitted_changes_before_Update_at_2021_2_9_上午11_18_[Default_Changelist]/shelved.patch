@@ -1,0 +1,55 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"8054e1d7-8585-4b99-90c7-9f49e748e3c1\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/Hermes.iml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main.go\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/server/echo_server.go\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Go File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"GOROOT\" path=\"$USER_HOME$/sdk/go1.15\" />\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitToolBoxStore\">\n    <option name=\"projectConfigVersion\" value=\"2\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1o5SpH52SznHunrBmFG4iVE0xnI\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"DefaultGoTemplateProperty\" value=\"Go File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"configurable.Global.GOPATH.is.expanded\" value=\"true\" />\n    <property name=\"configurable.Module.GOPATH.is.expanded\" value=\"false\" />\n    <property name=\"configurable.Project.GOPATH.is.expanded\" value=\"true\" />\n    <property name=\"go.import.settings.migrated\" value=\"true\" />\n    <property name=\"go.sdk.automatically.set\" value=\"true\" />\n    <property name=\"ignore_missing_gitignore\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$USER_HOME$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"go.vgo\" />\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"go build github.com/zouzhihao-994/Hermes/src\" type=\"GoApplicationRunConfiguration\" factoryName=\"Go Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Hermes\" />\n      <working_directory value=\"$PROJECT_DIR$\" />\n      <kind value=\"PACKAGE\" />\n      <filePath value=\"$PROJECT_DIR$/src/main.go\" />\n      <package value=\"github.com/zouzhihao-994/Hermes/src\" />\n      <directory value=\"$PROJECT_DIR$\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Go Build.go build github.com/zouzhihao-994/Hermes/src\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VgoProject\">\n    <integration-enabled>true</integration-enabled>\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"-1160\" y=\"474\" key=\"#GOROOT\" timestamp=\"1612575714695\">\n      <screen x=\"-1920\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state x=\"-1160\" y=\"474\" key=\"#GOROOT/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080\" timestamp=\"1612575714695\" />\n    <state x=\"-1057\" y=\"406\" key=\"EnvironmentVariablesDialog\" timestamp=\"1612575782302\">\n      <screen x=\"-1920\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state x=\"-1057\" y=\"406\" key=\"EnvironmentVariablesDialog/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080\" timestamp=\"1612575782302\" />\n    <state width=\"1878\" height=\"305\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1612576739275\">\n      <screen x=\"-1920\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1878\" height=\"305\" key=\"GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080\" timestamp=\"1612576739275\" />\n    <state width=\"1878\" height=\"305\" key=\"GridCell.Tab.0.center\" timestamp=\"1612576739274\">\n      <screen x=\"-1920\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1878\" height=\"305\" key=\"GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080\" timestamp=\"1612576739274\" />\n    <state width=\"1878\" height=\"305\" key=\"GridCell.Tab.0.left\" timestamp=\"1612576739273\">\n      <screen x=\"-1920\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1878\" height=\"305\" key=\"GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080\" timestamp=\"1612576739273\" />\n    <state width=\"1878\" height=\"305\" key=\"GridCell.Tab.0.right\" timestamp=\"1612576739274\">\n      <screen x=\"-1920\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state width=\"1878\" height=\"305\" key=\"GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080\" timestamp=\"1612576739274\" />\n    <state x=\"-1451\" y=\"176\" key=\"SettingsEditor\" timestamp=\"1612575784764\">\n      <screen x=\"-1920\" y=\"0\" width=\"1920\" height=\"1080\" />\n    </state>\n    <state x=\"-1451\" y=\"176\" key=\"SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080\" timestamp=\"1612575784764\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 06106f492a52784b9ab7e4f4cd69780452fe43e2)
++++ .idea/workspace.xml	(date 1612840418861)
+@@ -19,13 +19,7 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8054e1d7-8585-4b99-90c7-9f49e748e3c1" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/Hermes.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/server/echo_server.go" afterDir="false" />
+-    </list>
++    <list default="true" id="8054e1d7-8585-4b99-90c7-9f49e748e3c1" name="Default Changelist" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -56,6 +50,7 @@
+   <component name="PropertiesComponent">
+     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="DefaultGoTemplateProperty" value="Go File" />
++    <property name="GO_FMT" value="true" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+@@ -98,6 +93,11 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="init mod" />
++    <option name="LAST_COMMIT_MESSAGE" value="init mod" />
+   </component>
+   <component name="VgoProject">
+     <integration-enabled>true</integration-enabled>
+@@ -131,5 +131,9 @@
+       <screen x="-1920" y="0" width="1920" height="1080" />
+     </state>
+     <state x="-1451" y="176" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612575784764" />
++    <state x="-1360" y="277" key="Vcs.Push.Dialog.v2" timestamp="1612589551117">
++      <screen x="-1920" y="0" width="1920" height="1080" />
++    </state>
++    <state x="-1360" y="277" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612589551117" />
+   </component>
+ </project>
+\ No newline at end of file

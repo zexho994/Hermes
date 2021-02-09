@@ -2,9 +2,9 @@ package server
 
 import (
 	"flag"
+	"fmt"
 	"github.com/panjf2000/gnet"
 	"log"
-	"strconv"
 )
 
 type tcpServer struct {
@@ -18,16 +18,18 @@ func (es *tcpServer) onInitComplete(src gnet.Server) (action gnet.Action) {
 
 // 业务代码写在React里
 func (es *tcpServer) React(frame []byte, c gnet.Conn) (out []byte, action gnet.Action) {
+	log.Println("new tcp msg")
 	out = frame
-
 	return
 }
 
 func InitTcpServer() {
 	// Example command: go run echo.go -port 9000 -multicore=true
-	var port = flag.Int("port", 9002, "--port <pid>")
-	var isMulticore = flag.Bool("multicore", false, "--multicore true")
+	var port int
+	var multicore bool
+	flag.IntVar(&port, "port", 8080, "server port")
+	flag.BoolVar(&multicore, "multicore", true, "multicore")
 	flag.Parse()
 	echo := new(tcpServer)
-	_ = gnet.Serve(echo, "tcp://:"+strconv.Itoa(*port), gnet.WithMulticore(*isMulticore))
+	log.Fatal(gnet.Serve(echo, fmt.Sprintf("tcp://:%d", port), gnet.WithMulticore(multicore)))
 }
