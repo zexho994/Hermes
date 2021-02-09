@@ -23,7 +23,8 @@ func (es *tcpServer) React(frame []byte, c gnet.Conn) (out []byte, action gnet.A
 	return
 }
 
-func InitTcpServer() {
+
+func InitTCPServer() {
 	// Example command: go run echo.go -port 9000 -multicore=true
 	var port int
 	var multicore bool

@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8054e1d7-8585-4b99-90c7-9f49e748e3c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/websocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/web_socket/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/tcp_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/tcp_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src" beforeDir="false" afterPath="$PROJECT_DIR$/src/src" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="http server demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="http server demo" />
+    <MESSAGE value="update tcp server" />
+    <option name="LAST_COMMIT_MESSAGE" value="update tcp server" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
