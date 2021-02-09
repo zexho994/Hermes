@@ -10,3 +10,7 @@ func (es *EchoServer) React(frame []byte, c gnet.Conn) (out []byte, action gnet.
 	out = frame
 	return
 }
+
+func (es *EchoServer) Server(fram []byte) {
+
+}

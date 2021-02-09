@@ -16,14 +16,16 @@ func (es *tcpServer) onInitComplete(src gnet.Server) (action gnet.Action) {
 	return
 }
 
+// 业务代码写在React里
 func (es *tcpServer) React(frame []byte, c gnet.Conn) (out []byte, action gnet.Action) {
 	out = frame
+
 	return
 }
 
 func InitTcpServer() {
-	var port = flag.Int("port", 9002, "--port <pid>")
 	// Example command: go run echo.go -port 9000 -multicore=true
+	var port = flag.Int("port", 9002, "--port <pid>")
 	var isMulticore = flag.Bool("multicore", false, "--multicore true")
 	flag.Parse()
 	echo := new(tcpServer)

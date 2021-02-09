@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8054e1d7-8585-4b99-90c7-9f49e748e3c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/server/tcp_server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/http_server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/echo_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/echo_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/tcp_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/tcp_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src" beforeDir="false" afterPath="$PROJECT_DIR$/src/src" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +64,7 @@
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -71,19 +74,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="Hermes" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <package value="github.com/zouzhihao-994/Hermes" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build github.com/zouzhihao-994/Hermes/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Hermes" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,17 +84,6 @@
       <filePath value="$PROJECT_DIR$/src/main.go" />
       <package value="github.com/zouzhihao-994/Hermes/src" />
       <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="Hermes" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-      <package value="github.com/zouzhihao-994/Hermes" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -142,49 +124,61 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1057" y="406" key="EnvironmentVariablesDialog/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612575782302" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1612799535672">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612576739275" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535672" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1612799535671">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612576739274" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535671" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1612799535671">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612576739273" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535671" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1612799535672">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612576739274" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535672" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1612799535585">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535585" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1612799535584">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1612799535584">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1612799535584">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
-    <state x="-1451" y="176" key="SettingsEditor" timestamp="1612575784764">
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1612858565794">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1451" y="176" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612575784764" />
+    <state width="1878" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612858565794" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535672" />
+    <state width="1878" height="305" key="GridCell.Tab.0.center" timestamp="1612858565791">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612858565791" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535671" />
+    <state width="1878" height="305" key="GridCell.Tab.0.left" timestamp="1612858565790">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612858565790" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535671" />
+    <state width="1878" height="305" key="GridCell.Tab.0.right" timestamp="1612858565792">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="305" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612858565792" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535672" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1612857300687">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612857300687" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535585" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1612857300681">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612857300681" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1612857300680">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612857300680" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1612857300683">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612857300683" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
+    <state x="-984" y="280" key="SettingsEditor" timestamp="1612840825152">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-984" y="280" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612840825152" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1612796150010">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="744" height="658" key="SwitcherDM.inPresentationMode" timestamp="1612858377131">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="744" height="658" key="SwitcherDM.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612858377131" />
     <state width="500" height="445" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1612796150010" />
+    <state x="-1154" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612840886629">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1154" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612840886629" />
   </component>
 </project>
