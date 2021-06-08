@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8054e1d7-8585-4b99-90c7-9f49e748e3c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/server/filewatch_server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_2_9_11_18__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_2_9_上午11_18_[Default_Changelist]/shelved.patch" beforeDir="false" />
+    <list default="true" id="8054e1d7-8585-4b99-90c7-9f49e748e3c1" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/codec/codec.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ws_server.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ws_server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -45,8 +42,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="vh8eqor7" />
   </component>
   <component name="ProjectId" id="1o5SpH52SznHunrBmFG4iVE0xnI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -59,11 +67,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -71,12 +80,13 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager">
@@ -96,6 +106,25 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8054e1d7-8585-4b99-90c7-9f49e748e3c1" name="Default Changelist" comment="" />
+      <created>1623152955639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623152955639</updated>
+      <workItem from="1623152957102" duration="942000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1623153092110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623153092110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -116,123 +145,10 @@
     <MESSAGE value="http server demo" />
     <MESSAGE value="update tcp server" />
     <MESSAGE value="add ws server demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ws server demo" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="760" y="474" key="#GOROOT" timestamp="1612599585486">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1160" y="474" key="#GOROOT/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612575714695" />
-    <state x="760" y="474" key="#GOROOT/0.0.1920.1080@0.0.1920.1080" timestamp="1612599585486" />
-    <state x="-1057" y="406" key="EnvironmentVariablesDialog" timestamp="1612575782302">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1057" y="406" key="EnvironmentVariablesDialog/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612575782302" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1612964087737">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1612941139128">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612941139128" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612964087737" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612930474946" />
-    <state width="1878" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535672" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1612964087736">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1612941139122">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.0.center.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612941139122" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612964087736" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612930474943" />
-    <state width="1878" height="376" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535671" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1612964087735">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1612941139120">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.0.left.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612941139120" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612964087735" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612930474940" />
-    <state width="1878" height="376" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535671" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1612964087736">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1612941139127">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.0.right.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612941139127" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612964087736" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612930474944" />
-    <state width="1878" height="376" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535672" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1612964087739">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.1.bottom.inPresentationMode" timestamp="1612941139132">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.1.bottom.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612941139132" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612964087739" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612930474950" />
-    <state width="1878" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535585" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1612964087738">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.1.center.inPresentationMode" timestamp="1612941139130">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.1.center.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612941139130" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612964087738" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612930474948" />
-    <state width="1878" height="376" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1612964087738">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.1.left.inPresentationMode" timestamp="1612941139129">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.1.left.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612941139129" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612964087738" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612930474947" />
-    <state width="1878" height="376" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1612964087738">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.1.right.inPresentationMode" timestamp="1612941139131">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="369" key="GridCell.Tab.1.right.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612941139131" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612964087738" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612930474949" />
-    <state width="1878" height="376" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612799535584" />
-    <state x="458" y="172" key="SettingsEditor" timestamp="1612963970442">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="172" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612963970442" />
-    <state x="-984" y="280" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612840825152" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1612796150010">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="744" height="658" key="SwitcherDM.inPresentationMode" timestamp="1612858377131">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="744" height="658" key="SwitcherDM.inPresentationMode/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612858377131" />
-    <state width="500" height="445" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1612796150010" />
-    <state x="420" y="220" key="Vcs.Push.Dialog.v2" timestamp="1612962834144">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="420" y="220" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612962834144" />
-    <state x="-1360" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612858907671" />
-    <state x="575" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612964086608">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="575" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1612964086608" />
-    <state x="-1154" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1612840886629" />
   </component>
 </project>
