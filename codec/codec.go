@@ -13,13 +13,14 @@ type Codec interface {
 
 type NewCodecFunc func(closer io.ReadWriteCloser) Codec
 
+// Header stores data other than request parameters and response data.
 type Header struct {
-	// 方法名称
-	serviceMethod string
-	// 请求序号,可以理解为请求的ID
-	seq uint64
-	// 错误信息
-	error string
+	// method's name. format like "<service>.<method>"
+	ServiceMethod string
+	// request-id, the purpose is to distinguish the between requests
+	Seq uint64
+	// Save the  server error
+	Error string
 }
 
 type Type string
@@ -34,4 +35,5 @@ var NewCodecFuncMap map[Type]NewCodecFunc
 func init() {
 	NewCodecFuncMap = make(map[Type]NewCodecFunc)
 	NewCodecFuncMap[GobType] = NewGobCodec
+	//NewCodecFuncMap[JsonType] = NewGobCodec
 }
