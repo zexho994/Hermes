@@ -31,6 +31,16 @@ func (server *Server) Accept(lis net.Listener) {
 		go server.ServerConn(conn)
 	}
 }
+func startServer(addr chan string) {
+	// pick a free port
+	l, err := net.Listen("tcp", ":0")
+	if err != nil {
+		log.Fatal("network error:", err)
+	}
+	log.Println("start rpc server on", l.Addr())
+	addr <- l.Addr().String()
+	Accept(l)
+}
 
 // ServerConn 处理连接的事情
 func (server *Server) ServerConn(conn io.ReadWriteCloser) {
@@ -48,9 +58,9 @@ func (server *Server) ServerConn(conn io.ReadWriteCloser) {
 		return
 	}
 	// 确认编解码方式
-	f := codec.NewCodecFuncMap[opt.CodeType]
+	f := codec.NewCodecFuncMap[opt.CodecType]
 	if f == nil {
-		log.Printf("rpc server: invalic codec type %s", opt.CodeType)
+		log.Printf("rpc server: invalic codec type %s", opt.CodecType)
 	}
 	// 使用指定的编解码方式进行后续解码
 	server.serverCodec(f(conn))

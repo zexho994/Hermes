@@ -7,10 +7,10 @@ type Option struct {
 	// 表示为Hermes RPC 请求
 	MagicNumber int
 	// 编码方式
-	CodeType Type
+	CodecType Type
 }
 
 var DefaultOption = &Option{
 	MagicNumber: MagicNumber,
-	CodeType:    GobType,
+	CodecType:   GobType,
 }
